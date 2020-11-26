@@ -13,6 +13,7 @@
     "gatsby-plugin-sharp": "^2.6.42",
     "gatsby-plugin-styled-components": "^3.3.14",
     "gatsby-source-filesystem": "^2.3.34",
+    "gatsby-transformer-remark": "^2.11.1",
     "gatsby-transformer-sharp": "^2.5.17",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
