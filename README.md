@@ -1,3 +1,3 @@
 # Luiz Amaral - Blog
 
-My personal blog/site using Ract, Gatsby, GraphQL and Netlify.
+Meu blog/site pessoal utilizando React, Gatsby, GraphQL e Netlify.
