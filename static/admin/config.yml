@@ -27,14 +27,14 @@ collections:
       - { label: "Category",
           name: "category",
           widget: "select",
-          options: ["java", "css", "js", "html", "php", "dev", "misc"]
+          options: ["node", "css", "js", "html", "php", "dev", "misc"]
         }
       - {
         label: "Background",
         name: "background",
         widget: "select",
         options: [
-          { label: "Java", value: "#B31917" },
+          { label: "Node", value: "#74b955" },
           { label: 'CSS', value: '#2DA0C3' },
           { label: 'JS', value: '#D6BA32' },
           { label: 'HTML', value: '#EB7728' },
