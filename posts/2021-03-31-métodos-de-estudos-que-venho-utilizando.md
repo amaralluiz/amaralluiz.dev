@@ -28,3 +28,27 @@ Como falei no parágrafo passado, quando estamos aprendendo sozinhos acabamos ti
 Se possível, procure outras pessoas que estão fazendo o mesmo curso, interaja com elas, converse com o instrutor, procure outras pessoas que leram o mesmo livro ou artigo e se tiver em dúvida sobre algo e se sua conclusão realmente está correta até tente fazer contato com o autor. Você pode muitas vezes achar que está incomodando, mas geralmente estas pessoas são bastante abertas a discussões e explicar o que queriam dizer, claro que também é sempre bom pesquisar um pouco mais para dar mais força ao seu argumento.
 
 ## Botando a mão na massa
+
+E agora a melhor forma de realmente validar os estudos e reforça-los: botando a mão na massa. Pense em algum problema que queira resolver, algo que queira automatizar, um CRUD ou até um sisteminha mais avançado e pegue o que aprendeu e coloque em prática. A ideia é realmente fazer algo diferente do que foi visto nos estudos e ir além, para que realmente o que aprendeu seja assimilado. Aqui você irá usar suas anotações, irá pesquisar mais e provavelmente terá vários momentos que pensará "nossa, é por isso que foi mostrado dessa forma".
+
+Costumo utilizar um projeto base que tenho, um CRUD com alguns cálculos para testar e reforçar o que venho aprendendo. Acabo sempre reescrevendo ele em todas as linguagens e frameworks que estudei, utilizando sempre coisas novas para que possa realmente evoluir.
+
+A melhor forma de ver que realmente aprendeu é colocando tudo em prática por conta, para que possa ir vendo sua evolução e pesquisando as coisas que mais sente dúvida. Como sempre, costumo anotar e pesquisas bastante coisas quando vou colocar em prática, tanto para poder consultar no futuro quanto para gravar ainda mais aquele conhecimento.
+
+## Consistência
+
+Tenha consistência nos seus estudos. Tire nem que seja 15min para praticar, ler, reler suas anotações, ver um vídeo sobre o que está estudando. Ter uma consistência fará você evoluir de forma muito mais fácil, pois melhor estudar 15min por dia do que estudar 2h por semana. Sendo consistente você lembrará muito mais fácil dos assuntos e não precisará de tirar um tempo para fazer uma revisão.
+
+Sem contar que essa consistência irá criar o hábito de sempre estar estudando, o que a longo prazo te ajudará a sempre evoluir.
+
+## Ensine
+
+Outra ótima forma de aprender, é ensinando porque como dizem: "ensinar é aprender duas vezes". Não sei quem foi o autor dessa frase, mas considero era extremamente real, pois sempre aprendi melhor quando ensinei algo para alguém. Pensar em como passar aquele conhecimento, geralmente abstraindo, colocando novos exemplos e experimentando novas coisas faz aquilo realmente ficar gravado e muito mais simples na sua cabeça. Sem contar que a satisfação de ensinar é muito boa.
+
+## Descanse
+
+Isso não vale somente para estudos, também vale para tudo. Descansando você está dando tempo para seu cérebro realmente gravar aquelas informações e refletir sobre aquilo. O descanso é muito importante nos estudos e aprendizado. Sempre tire uma pausa, durma bem e se acabar se sentindo cansado demais para estudar, tire um descanso, pois a próxima vez que estudar será bem mais proveitoso.
+
+
+
+Creio que estas sejam minhas dicas para estudos. Costumo também utilizar o Trello para me organizar, mantendo um backlog de assuntos e poder sempre colocar um card na coluna de concluído é sempre bom para me manter motivado e ver minha evolução. E como vocês costumam estudar? Postem aqui nos comentários para que possamos discutir.
