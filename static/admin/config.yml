@@ -34,13 +34,13 @@ collections:
         name: "background",
         widget: "select",
         options: [
-          { label: "Node", value: "#74b955" },
+          { label: "Node", value: "#74B955" },
           { label: 'CSS', value: '#2DA0C3' },
           { label: 'JS', value: '#D6BA32' },
           { label: 'HTML', value: '#EB7728' },
-          { label: 'PHP', value: '#7f171f' },
+          { label: 'PHP', value: '#2596BE' },
           { label: 'Dev', value: '#637a91' },
-          { label: 'Misc', value: '#7AAB13' },
+          { label: 'Misc', value: '#7F171F' },
         ]
       }
       - { label: "Body", name: "body", widget: "markdown" }
