@@ -85,7 +85,7 @@ const b = a.filter((dado) => {
 console.log(b);
 ```
 
-Como o `map`, o `filter `também não altera o array original, mas retorna um novo array.
+Como o `map`, o `filter` também não altera o array original, mas retorna um novo array.
 
 Find -> Busca elemento no array, conforme uma condição desejada, e devolve o elemento caso seja encontrado.
 
