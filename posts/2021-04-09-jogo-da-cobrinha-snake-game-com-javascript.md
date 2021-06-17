@@ -1,8 +1,8 @@
 ---
-title: Jogo da Cobrinha (Snake Game) com JavaScript
+title: Jogo da Cobrinha (Snake Game) com JavaScript Parte 1
 description: Implementando o clássico jogo da cobrinha utilizando JavaScript com
   a biblioteca p5.js
-date: 2021-04-09 06:34:18
+date: 2021-06-17 01:31:46
 thumbnail: assets/img/snake.png
 category: js
 background: "#D6BA32"
@@ -88,3 +88,61 @@ Com isso já temos a canvas do jogo, onde ele acontecerá. Claramente precisamos
 `<script type="text/javascript" src="snake.js">`
 
 Agora iremos começar a definir o objeto Snake. Precisamos que ele tenha algumas propriedades para podermos controlar onde ele está na tela e algumas funções para podermos manipulá-lo.
+
+```javascript
+function Snake(){
+    this.x = 0;
+    this.y = 0;
+    this.xspeed = 1;
+    this.yspeed = 0;
+  
+  this.update = function() {
+    this.x = this.x + this.xspeed;
+    this.y = this.y + this.yspeed;
+  }
+}
+```
+
+Criamos as variáveis `x` e `y` para termos o valor de onde a cobrinha estará na tela e os valores `xspeed` e `yspeed` para controlar para que lado ela estará andando. A função `update` será a responsável para atualizar os valores de x e y conforme o valor anterior mais o lado que a cobrinha estará andando.
+
+Além disso, precisaremos também de uma função que será responsável em realmente mostrar nossa cobrinha no canvas. Também fará parte do objeto Snake que criamos.
+
+```javascript
+this.show = function() {
+    fill(255);
+    rect(this.x, this.y, 10, 10)
+ }
+```
+
+O método `fill()` servirá para definir a cor da cobrinha, que neste caso será branca. Já o método `rect()` irá desenhar um retângulo na tela, que irá se posicionar os valores de `x` e `y` do nosso objeto `Snake` e terá um tamanho de `10x10`.
+
+Para que a nossa cobrinha exista no nosso arquivo principal, o `sketch.js`, devemos inicializar o objeto `Snake` que acabamos de criar. E como fazemos isso? Podemos criar uma variável `s` no escopo global e dentro da nossa função `setup` devemos inicializar o nosso objeto colocando `s = new Snake()` e dentro da nossa função `draw` também colocaremos duas linhas, com as funções que manipularão nossa cobrinha na tela que serão a as chamadas `s.update()` e `s.show()`.
+
+Com isto já teremos nossa cobrinha aparecendo na tela, um pequeno quadrado branco. Mas pra ser considerado um jogo, precisamos de um pouco de interatividade, correto? Então iremos criar aqui uma função que vai nos ajudar a movimentar nossa cobrinha. Essa função ficará no arquivo `sketch.js` também.
+
+```javascript
+function keyPressed(){
+  if (keyCode === UP_ARROW){
+    s.dir(0, -1);
+  } else if (keyCode === DOWN_ARROW){
+    s.dir(0, 1);
+  } else if (keyCode === RIGHT_ARROW){
+    s.dir(1, 0);
+  } else if (keyCode === LEFT_ARROW){
+    s.dir(-1, 0);
+  }
+}
+```
+
+Esta é uma função do próprio `p5js` onde ela será chamada toda vez que uma tecla do teclado ser chamada e irá armazenar este valor na variável `keyCode`. Vemos que dentro das verificações, é chamado um método `dir` e passado para ele certos valores, conforme a tecla pressionada. Este método será criado dentro do nosso objeto `Snake` e será com ele que iremos realmente controlar a nossa cobrinha.
+
+```javascript
+this.dir = function(x, y){
+  this.xspeed = x;
+  this.yspeed = y;
+}
+```
+
+Como podemos ver, iremos receber os valores passados conforme a tecla pressionada, alterando para que lado nossa cobrinha está indo. 
+
+Com isto já temos o básico do nosso joguinho. Vimos como criar e movimentar nossa cobrinha para que possamos realmente jogar. Como este texto está ficando um pouco grandinho, irei separá-lo por partes, mas podem ficar tranquilos que não irei demorar muito para finalizarmos nossa implementação. Caso tenham qualquer dúvida, sugestão ou viram que fiz algo errado, por favor comentem para que eu possa melhorar cada vez mais.
