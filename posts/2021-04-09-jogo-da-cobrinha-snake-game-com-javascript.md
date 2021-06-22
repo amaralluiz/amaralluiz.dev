@@ -2,7 +2,7 @@
 title: Jogo da Cobrinha (Snake Game) com JavaScript Parte 1
 description: Implementando o clássico jogo da cobrinha utilizando JavaScript com
   a biblioteca p5.js
-date: 2021-06-21 02:06:29
+date: 2021-06-22 08:58:16
 thumbnail: assets/img/snake.png
 category: js
 background: "#D6BA32"
