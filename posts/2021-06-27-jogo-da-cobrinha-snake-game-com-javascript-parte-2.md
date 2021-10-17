@@ -10,7 +10,7 @@ No post passado terminamos até o momento que conseguimos controlar a cobrinha n
 
 ![](assets/img/grid.png)
 
-Devemos fazer nossa canvas conforme essa imagem. Onde a cobrinha irá ocupar um quadradinho deste grid e a cada vez que ela se movimentar, irá para o próximo quadradinho. Para isso iremos usar uma variável que irá controlar o tamanho desse grid no contexto global. Então iremos colocar a seguinte linha logo abaixo da onde criamos a variável `s.`
+Devemos fazer nossa canvas conforme essa imagem. Onde a cobrinha irá ocupar um quadradinho deste grid e a cada vez que ela se movimentar, irá para o próximo quadradinho. Para isso iremos usar uma variável que irá controlar o tamanho desse grid no contexto global. Então iremos colocar a seguinte linha logo abaixo da onde criamos a variável `s`.
 
 ```javascript
 let scl = 20;
