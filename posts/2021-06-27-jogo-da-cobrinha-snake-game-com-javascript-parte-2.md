@@ -70,6 +70,61 @@ if (s.eat(food)){
 }
 ```
 
-### Novos compartamentos para Snake
+### Novos comportamentos para Snake
 
 Agora que já temos a comida e sabemos quando nossa cobrinha está pegando a comida, precisamos então criar o que define a dificuldade do jogo que é nossa cobrinha crescer quando ela pega a comida.
+
+Para começar iremos criar uma nova variável em Snake para controlar este tamanho. Será criado uma linha com `this.total = 0;` somente e para manter a organização colocaremos logo após as variáveis que controlam a direção.
+
+Para controlar as posições da cauda da cobrinha, iremos criar agora um array vazio onde toda vez que a cobrinha conseguir pegar a comida, o valor atual da cabeça irá para a cauda e também toda vez que ela andar para um lado, o valor da cabeça seja substituído pela cauda dependendo do tamanho dela, para assim a cauda sempre se mover por onde a cabeça já esteve. Então podemos colocar a linha `this.total = []` logo abaixo da linha do total.
+
+Para fazer o controle de onde a cabeça da cobrinha esteve, precisaremos criar um *loop* que colocará toda vez a posição da cabeça no último lugar do *array* e ir passando todo o *array* para trás, conforme o tamanho. Este *loop* irá precisar estar dentro de uma estrutura de controle que verifica se o total é igual o tamanho da cobrinha e se ele for vai fazer esta mudança de posições no *array*.
+
+```javascript
+if(this.total === this.tail.length){
+  for(let i = 0; i <this.total - 1; i++){
+    this.tail[i] = this.tail[i +1]
+  }
+}
+this.tail[this.total -1] = createVector(this.x, this.y);
+```
+
+Todo este trecho deverá ficar dentro da função `update` que já criamos anteriormente.
+
+Agora para realmente conseguirmos desenhar nossa cobrinha na tela precisaremos alterar algumas coisas na nossa função `show`.
+
+```javascript
+fill(255);
+for (var i = 0; i< this.total; i++){
+  rect(this.tail[i].x, this.tail[i].y, scl, scl);
+}
+```
+
+O último comportamento que fica faltando agora é o que define o *Game Over* do nosso joguinho, né? Então vamos lá entender algumas coisas para podermos criar nossa função que irá controlar isso. Para ficar mais simples neste momento a cobrinha só irá morrer quando ela encostar em alguma parte do seu corpo.
+
+Para isso, iremos implementar algo próximo de como fizemos com a comida, onde iremos percorrer todas posições de `tail` para verificar a distância e caso for menor que 1, iremos resetar o jogo, zerando o total e esvaziando o *`array`* de `tail`.
+
+Nossa função `death` então ficará assim:
+
+```javascript
+this.death = function(){
+  for (var i = 0; i< this.tail.length; i++){
+  var pos = this.tail[i];
+  var d = dist(this.x, this.y, pos.x, pos.y)
+  if (d < 1){
+    this.total = 0;
+    this.tail = [];
+    }
+  }
+}
+```
+
+Após implementar a função `death` voltamos para o arquivo `sketch.js` e fazemos a chamada dela antes da chamada de `s.update()` com `s.death()`.
+
+### Conclusão
+
+Terminamos então o projeto básico no nosso jogo e temos tem todas as funções básicas para funcionar, mas podemos fazer algumas melhorias tanto no jogo, quanto no nosso código. Um exemplo de melhoria no código seria isolar o código do objeto `food` para um arquivo separado, conforme fizemos em `Snake`. Caso você já esteja testando, também percebemos um comportamento estranho no nosso jogo, onde a cobrinha consegue ir para trás mesmo já tendo uma cauda e isso é um bug no nosso jogo.
+
+No próximo post dessa série iremos então realizar estas melhorias e correções, mas não prometo quando este post irá sair. Mas prometo que não ficarei tanto tempo sem postar mais, tentarei ser mais presente por aqui e postar mais coisas interessantes para vocês.
+
+Como sempre, caso tenha gostado comente, compartilhe com os amigos, dê dicas de próximos posts. Se tiver visto algum erro no código, ou algo que eu poderia ter feito melhor também comente aqui que ficarei muito feliz de melhorar. Caso não tenha gostado, comente também para saber o que posso melhor. Um abraço.
