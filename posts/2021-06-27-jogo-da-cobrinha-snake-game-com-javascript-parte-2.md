@@ -1,7 +1,7 @@
 ---
 title: Jogo da Cobrinha (Snake Game) com JavaScript Parte 2
 description: Implementando os comportamentos e regras do jogo
-date: 2021-06-27 06:43:29
+date: 2021-10-18 09:31:11
 thumbnail: assets/img/snake.png
 category: js
 background: "#D6BA32"
