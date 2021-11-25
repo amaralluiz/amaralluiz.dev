@@ -7,3 +7,7 @@ category: js
 background: "#D6BA32"
 ---
 Aqui vou escrever o post
+
+
+
+![teste](assets/img/javascript-loop.jpg "teste")
