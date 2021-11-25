@@ -39,3 +39,56 @@ console.log(arrayReduzido);
 ```
 
 Desta forma iremos concatenar ao acumulador o valor atual, gerando somente um array com os valores de todos os arrays.
+
+Agora um exemplo do que podemos fazer que realmente acaba ajudando muito no dia a dia, principalmente de quem usa react para transformar um array de objetos em um único objeto, possuindo outros objetos dentro dele de forma que a leitura fica muito mais simples.
+
+Irei usar de exemplo o código que vi [neste post](https://coelhucas.medium.com/reduce-javascript-7f00a06b0a80) do Medium do [Lucas Coelho](https://coelhucas.medium.com/) (ele também dá outros exemplos de uso do reduce e sugiro ir lá dar uma olhada).
+
+```javascript
+const components = [
+  {
+    name: 'Button',
+    styles: {
+      color: 'white',
+      backgroundColor: 'black',
+      borderRadius: '20px'
+    }
+  },
+  {
+    name: 'TextInput',
+    styles: {
+      color: 'black',
+      border: '2px solid'
+    }
+  },
+  {
+    name: 'Checkbox',
+    styles: {
+      color: 'deeppink'
+    }
+  }
+];
+
+const getComponentsMetadata = () => (
+  components.reduce((acc, current) => ({
+    ...acc,
+    [current.name]: {
+      ...current.styles
+    }
+  }), {})
+);
+```
+
+Como podemos ver, o reduce irá neste caso criar um objeto só com os objetos Button, TextInput e Checkbox dentro dele. E para cada objeto ele colocará os styles como propriedade. Isto facilidade bastante na hora de poder utizar estes objetos. Para ficar mais claro, o retorno é conforme o abaixo:
+
+```javascript
+{
+  Button: {
+    color: "white",
+    borderRadius: "20px",
+    backgroundColor: "black"
+  },
+  TextInput: { … },
+  CheckBox: { … }
+}
+```
