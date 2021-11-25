@@ -6,7 +6,7 @@ backend:
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
-public_folder: "assets/img"
+public_folder: "/assets/img"
 
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
