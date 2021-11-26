@@ -79,7 +79,7 @@ const getComponentsMetadata = () => (
 );
 ```
 
-Como podemos ver, o reduce irá neste caso criar um objeto só com os objetos Button, TextInput e Checkbox dentro dele. E para cada objeto ele colocará os styles como propriedade. Isto facilidade bastante na hora de poder utizar estes objetos. Para ficar mais claro, o retorno é conforme o abaixo:
+Como podemos ver, o reduce irá neste caso criar um objeto só com os objetos Button, TextInput e Checkbox dentro dele. E para cada objeto ele colocará os styles como propriedades de cada objeto. Isto facilidade bastante na hora de poder utizar estes objetos. Para ficar mais claro, o retorno é conforme o abaixo:
 
 ```javascript
 {
@@ -92,3 +92,5 @@ Como podemos ver, o reduce irá neste caso criar um objeto só com os objetos Bu
   CheckBox: { … }
 }
 ```
+
+Como podemos ver existem várias formas que o reduce pode ser útil, substituindo melhor outros métodos de array. Agora que você já sabe como utilizar esse método, comenta aí uma forma que você vem utilizando.
