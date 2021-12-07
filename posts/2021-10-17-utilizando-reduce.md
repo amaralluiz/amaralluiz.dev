@@ -1,7 +1,7 @@
 ---
 title: Utilizando Reduce
 description: Uso do método Reduce em JavaScript
-date: 2021-10-17 08:08:22
+date: 2021-12-07 08:38:41
 thumbnail: assets/img/javascript-loop.jpg
 category: js
 background: "#D6BA32"
