@@ -27,3 +27,14 @@ Para conseguir acessar os dados que estão nesse arquivo em formato `json` é mu
 $arquivo = file_get_contents("./environment.json");
 $json = json_decode($arquivo, true)
 ```
+
+Dessa forma na nossa variável \`$json\` já teremos os dados do arquivo num array associativo e podemos acessá-los da seguinte forma:
+
+```php
+$json['database'];
+$json['password'];
+```
+
+Assim, utilizando a mesma chave utilizada no arquivos json, acessamos o valor dela.  
+
+Podemos também atualizar os valores do arquivo, passando o valor para a variável e depois utilizar o método \`file_put_contents\`. Nesse caso então deveremos carregar uma variável com o valor atual do nosso arquivo com o \`file_get_contents\`, fazer a manipulação desejada e logo depois chamar o \`file_put_contents\` passando para o método o caminho e nome do arquivo e o novo valor.
