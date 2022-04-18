@@ -1,7 +1,7 @@
 ---
 title: Lendo arquivos com PHP
 description: Como ler arquivos utilizando PHP
-date: 2021-11-25 09:20:23
+date: 2022-04-18 09:53:00
 thumbnail: assets/img/php.png
 category: php
 background: "#2596BE"
