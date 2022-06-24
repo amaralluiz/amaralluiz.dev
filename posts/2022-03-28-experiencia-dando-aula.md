@@ -1,7 +1,7 @@
 ---
-title: Experiencia dando aula
-description: Como foi ser professor por 2 dias
-date: 2022-03-28 10:49:28
+title: Minha experiência dando aula em um Bootcamp da Teknisa
+description: Como foi ser professor por 2 dias no Bootcamp da Teknisa
+date: 2022-06-24 02:43:10
 thumbnail: /assets/img/estudo.jpg
 category: misc
 background: "#7F171F"
@@ -15,3 +15,5 @@ Eu achei a ideia super legal, na época postei a inscrição no Twitter e divers
 E posso dizer que foi do caralho. Desde montar o material até o último dia de aula, foi uma das melhores experiências que eu tive na minha carreira. O material está no meu [Github](https://github.com/amaralluiz/curso-teknisa-php) pra quem quisar dar uma olhada. Eu aprendi bastante com isso, tive que entender melhor como funciona os tipos do PHP, algumas estruturas como switch que eu nunca utilizei muito e sintaxe da linguagem. Também aprendi mais sobre Laravel e vi como a documentação dele é maravilhosa, eu nunca tinha montado um projeto em Laravel e só lendo a documentação oficial e procurando algumas coisas pontuais consegui montar um projeto bem didático para quem nunca teve esse contato com programação.
 
 E a melhor parte foi a interação com os alunos. O primeiro dia de aula foi na sexta-feira a noite, lembro que durante o dia eu fiquei extremamente ansioso, revisando o material várias vezes, preparando meu ambiente, testando todos os códigos e repassando o que eu falaria para o pessoal. E fiquei ansioso e com medo à toa já que o pessoal foi extremamente participativo e interessado.
+
+Espero que eu tenha mais oportunidades de participar deste tipo de projetos novamente e vou tentar montar uma palestra para tentar colar em algum evento agora porque gostei bastante. Quem também tiver interesse em me chamar, estou a disposição para poder palestrar ou qualquer coisa assim.
