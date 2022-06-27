@@ -1,14 +1,14 @@
 ---
 title: Minha experiência dando aula em um Bootcamp da Teknisa
 description: Como foi ser professor por 2 dias no Bootcamp da Teknisa
-date: 2022-06-24 02:43:10
+date: 2022-06-27 12:45:43
 thumbnail: /assets/img/estudo.jpg
 category: misc
 background: "#7F171F"
 ---
 Gostaria de iniciar falando que eu sempre tive vontade de dar aula. Me vejo muito caminhando como professor, pois gosto bastante de repassar o que sei e tenho facilidade com isso. Sei que consigo adaptar o que estou tentando passar para níveis diferentes para que a pessoa que está ouvindo consiga entender o que estou falando.
 
-Deixando claro essa parte estou aqui pra falar de uma experiência que eu tive recentemente. No começo do ano, a empresa que eu trabalho, a [Teknisa](https://teknisa.gupy.io/) resolveu fazer um bootcamp para atração de novos talentos, basicamente um programa para estagiários. Como eu sempre deixei claro que tenho essa vontade de ensinar, fui chamado pra dar aula nesse curso e o tema que eu iria apresentar seria PHP, já que é a linguagem que trabalho diariamente e tenho conhecimento suficiente pra poder repassar pelo menos o básico para as pessoas que estavam interessadas.
+Deixando claro essa parte estou aqui pra falar de uma experiência que eu tive recentemente. No começo do ano, a empresa que eu trabalhava, a [Teknisa](https://teknisa.gupy.io/) resolveu fazer um bootcamp para atração de novos talentos, basicamente um programa para estagiários. Como eu sempre deixei claro que tenho essa vontade de ensinar, fui chamado pra dar aula nesse curso e o tema que eu iria apresentar seria PHP, já que é a linguagem que trabalho diariamente e tenho conhecimento suficiente pra poder repassar pelo menos o básico para as pessoas que estavam interessadas.
 
 Eu achei a ideia super legal, na época postei a inscrição no Twitter e diversas pessoas estavam interessadas em participar e isso me animou ainda mais. Por esse primeiro contato eu já pude ver mais ou menos qual seria o nível das pessoas que estavam participando e por ser um programa de estágio, resolvi repassar um conteúdo básico de PHP, explicando como rodar o primeiro projeto, os tipos de dados, funções e umas curiosidades sobre a linguagem e também pra atiçar mais a curiosidade do pessoal, resolvi fazer um projetinho simples de uma API que seria um CRUD bem básico.
 
