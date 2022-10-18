@@ -27,7 +27,7 @@ collections:
       - { label: "Category",
           name: "category",
           widget: "select",
-          options: ["node", "css", "js", "html", "php", "dev", "misc"]
+          options: ["node", "css", "js", "html", "php", ".NET", "dev", "misc"]
         }
       - {
         label: "Background",
@@ -39,6 +39,7 @@ collections:
           { label: 'JS', value: '#D6BA32' },
           { label: 'HTML', value: '#EB7728' },
           { label: 'PHP', value: '#2596BE' },
+          { label: '.NET', value: '##A82EDA' },
           { label: 'Dev', value: '#637a91' },
           { label: 'Misc', value: '#7F171F' },
         ]
