@@ -14,4 +14,26 @@ A Orientação a Objetos utiliza de quatro principais componentes que são a Abs
 
 Beleza, mas o que é um Objeto? O objeto é a forma que utilizamos para representar essas coisas e conceitos do mundo real que já foram citadas. Um objeto em programação pode ser resumido também como a instância de uma classe. 
 
-Mas e agora o que é uma Classe? A classe é justamente o "esqueleto" que esse objeto terá. É a classe que irá definir todos os atributos e comportamentos de um objeto. Os atributos são basicamente as variáveis de uma classe, são os valores que devem ser armazenados que fazem senti para aquele objeto. Agora os métodos são as funcionalidades e comportamos que esse objeto deve ter.
+Mas e agora o que é uma Classe? A classe é justamente o "esqueleto" que esse objeto terá. É a classe que irá definir todos os atributos e comportamentos de um objeto. Os atributos são basicamente as variáveis de uma classe, são os valores que devem ser armazenados que fazem senti para aquele objeto. Agora os métodos são as funcionalidades e comportamos que esse objeto deve ter. Definindo os atributos e comportamentos temos o necessário para criar nossos objetos, ou como falamos, instanciamos o objeto utilizando a classe.
+
+Podemos usar o exemplo abaixo para mostrar como definimos uma classe em C# e depois como instanciamos esta classe.
+
+```csharp
+public class Sale
+{
+  public Guid Id { get; set; }
+  public List<Products> { get; set; }
+  public int TotalValue { get; set; }
+  
+  public bool ConfirmSale()
+  {
+    return true;
+  }
+  
+  public bool CancelSale()
+  {
+    return true;
+  }
+}
+
+```
