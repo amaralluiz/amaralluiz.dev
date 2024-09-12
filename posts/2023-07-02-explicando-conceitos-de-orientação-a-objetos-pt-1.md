@@ -62,3 +62,5 @@ namespace TestePOO
 Como podemos ver, primeiramente criamos uma classe chamada Sale, nela temos alguns atributos que são o Id, uma lista de Product, que é outro objeto que não incluí neste arquivo, um inteiro para o valor total da venda e um enum SaleStatus para controlar o estado dessa venda. Temos também como comportamento o ConfirmSale que é um método que somente vai alterar o status da venda para Confirmado.
 
 Na linha 31 do nosso codigo, instaciamos finalmente o nosso objeto utilizando a palavra reservada `new` e o nome do nosso objeto `Sale()`. Logo depois nos conseguimos colocar valor nos atributos do nosso objeto e também utilizamos os métodos dele para controlarmos e fazermos ações nele.
+
+No próximo post veremos as características da Orientação a Objetos que citei no começo.
