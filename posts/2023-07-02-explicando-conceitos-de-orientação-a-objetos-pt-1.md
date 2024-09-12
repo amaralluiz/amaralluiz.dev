@@ -1,7 +1,7 @@
 ---
 title: Explicando conceitos de Orientação a Objetos (PT 1)
 description: Explicando os conceitos de Orientação a Objetos
-date: 2023-07-02 07:42:05
+date: 2024-09-12 04:41:57
 thumbnail: assets/img/estudo.jpg
 category: dev
 background: "#637a91"
