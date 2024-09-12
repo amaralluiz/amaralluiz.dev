@@ -19,21 +19,46 @@ Mas e agora o que é uma Classe? A classe é justamente o "esqueleto" que esse o
 Podemos usar o exemplo abaixo para mostrar como definimos uma classe em C# e depois como instanciamos esta classe.
 
 ```csharp
-public class Sale
-{
-  public Guid Id { get; set; }
-  public List<Products> { get; set; }
-  public int TotalValue { get; set; }
-  
-  public bool ConfirmSale()
-  {
-    return true;
-  }
-  
-  public bool CancelSale()
-  {
-    return true;
-  }
-}
+using System;
 
+namespace TestePOO
+{
+    
+    public class Sale
+    {
+        public int Id { get; set; }
+        public List<Product> Products { get; set; }
+        public SaleStatus SaleStatus { get; set; }
+        public int TotalValue { get; set; }
+
+        public bool ConfirmSale()
+        {
+            SaleStatus = SaleStatus.Confirmed;
+            return true;
+        }
+    }
+
+    public enum SaleStatus
+    {
+        Confirmed,
+        Canceled,
+        Pending
+    }
+    
+    public class Program
+    {
+        static void Main(string[] args) 
+        {
+            var sale = new Sale();
+            sale.TotalValue = 10;
+            sale.ConfirmSale();
+            Console.WriteLine(sale.TotalValue);
+            Console.WriteLine(sale.SaleStatus);
+        }
+    }
+}
 ```
+
+Como podemos ver, primeiramente criamos uma classe chamada Sale, nela temos alguns atributos que são o Id, uma lista de Product, que é outro objeto que não incluí neste arquivo, um inteiro para o valor total da venda e um enum SaleStatus para controlar o estado dessa venda. Temos também como comportamento o ConfirmSale que é um método que somente vai alterar o status da venda para Confirmado.
+
+Na linha 31 do nosso codigo, instaciamos finalmente o nosso objeto utilizando a palavra reservada `new` e o nome do nosso objeto `Sale()`. Logo depois nos conseguimos colocar valor nos atributos do nosso objeto e também utilizamos os métodos dele para controlarmos e fazermos ações nele.
