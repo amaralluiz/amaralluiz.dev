@@ -12,9 +12,15 @@ Mas o que realmente é POO (Programação Orientada a Objetos)? Bom, POO não é
 
 A Orientação a Objetos utiliza de quatro principais componentes que são a Abstração, o Encapsulamento, a a Herança e o Polimorfismo.
 
-Beleza, mas o que é um Objeto? O objeto é a forma que utilizamos para representar essas coisas e conceitos do mundo real que já foram citadas. Um objeto em programação pode ser resumido também como a instância de uma classe. 
+## Beleza, mas o que é um Objeto?
 
-Mas e agora o que é uma Classe? A classe é justamente o "esqueleto" que esse objeto terá. É a classe que irá definir todos os atributos e comportamentos de um objeto. Os atributos são basicamente as variáveis de uma classe, são os valores que devem ser armazenados que fazem senti para aquele objeto. Agora os métodos são as funcionalidades e comportamos que esse objeto deve ter. Definindo os atributos e comportamentos temos o necessário para criar nossos objetos, ou como falamos, instanciamos o objeto utilizando a classe.
+O objeto é a forma que utilizamos para representar essas coisas e conceitos do mundo real que já foram citadas. Um objeto em programação pode ser resumido também como a instância de uma classe. 
+
+## Mas e agora o que é uma Classe?
+
+A classe é justamente o "esqueleto" que esse objeto terá. É a classe que irá definir todos os atributos e comportamentos de um objeto. Os atributos são basicamente as variáveis de uma classe, são os valores que devem ser armazenados que fazem sentido para aquele objeto. Agora os métodos são as funcionalidades e comportamos que esse objeto deve ter. Definindo os atributos e comportamentos temos o necessário para criar nossos objetos, ou como falamos, instanciarmos o objeto utilizando a classe.
+
+## E como criamos isso no código?
 
 Podemos usar o exemplo abaixo para mostrar como definimos uma classe em C# e depois como instanciamos esta classe.
 
