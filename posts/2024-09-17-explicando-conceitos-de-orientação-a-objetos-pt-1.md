@@ -1,7 +1,7 @@
 ---
 title: Explicando conceitos de Orientação a Objetos (PT 2)
 description: Explicando o que é Abstração e Encapsulamento
-date: 2024-09-18 09:08:17
+date: 2025-07-01 03:01:48
 thumbnail: assets/img/estudo.jpg
 category: dev
 background: "#637a91"
