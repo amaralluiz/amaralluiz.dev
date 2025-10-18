@@ -12,7 +12,7 @@ No dia eu falei que os dois eram ferramentas de ORM, mas que as duas tinham foco
 
 Minha resposta não agradou o entrevistador, que queria somente ouvir que a diferença é que o Dapper é um Micro-ORM e o Entity Framework é um ORM completo.
 
-Acabou que não passei nessa entrevista, justamente por causa dessa pergunta e uma outra que também irá virar um post aqui. Mas essa pergunta realmente me corroeu um pouco por dentro, pois sinto que eu não respondi errado, mas não respondi da forma que ele queria. Depois de um tempo, atuei mais ainda com as duas tecnologias e hoje acredito que consigo citar as principais diferenças reais das duas ferramentas além de somente que uma é um Micro-ORM e outra é um ORM completo.
+Acabou que não passei nessa entrevista, justamente por causa dessa pergunta e uma outra que também irá virar um post aqui. Mas essa pergunta realmente me corroeu um pouco por dentro, pois sinto que eu não respondi errado, mas não respondi da forma que ele queria. Depois de um tempo, atuei mais com as duas tecnologias e hoje acredito que consigo citar as principais diferenças reais das duas ferramentas além de somente que uma é um Micro-ORM e outra é um ORM completo.
 
 ## O que é o Dapper?
 
