@@ -1,7 +1,7 @@
 ---
 title: Diferença entre Dapper e Entity Framework
 description: Diferença entre Dapper e Entity Framework
-date: 2025-09-16 09:20:33
+date: 2025-10-28 03:33:06
 thumbnail: assets/img/estudo.jpg
 category: .NET
 background: "#A82EDA"
