@@ -6,4 +6,4 @@ thumbnail: assets/img/sequencia-fibonacci.jpg
 category: dev
 background: "#637a91"
 ---
-a
+Nem sei se esse post faz tanto sentido mais, mas acho que vai ser um ótimo início para os posts falando sobre algoritmos
